@@ -1,5 +1,5 @@
 import Image from "next/image";
-import styles from "./page.module.css";
+import styles from "../page.module.css";
 
 export default function Home() {
   return (
@@ -17,7 +17,7 @@ export default function Home() {
           <li>
             돼따돼따<code>src/app/page.js</code>.
           </li>
-          <li>nextjs 슈우우웃</li>
+          <li>nextjs 슈우웃</li>
         </ol>
 
         <div className={styles.ctas}>
